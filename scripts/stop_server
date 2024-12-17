@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo service httpd stop
+sudo touch /var/www/html/teste
+sudo rm -rf /var/www/html/*
