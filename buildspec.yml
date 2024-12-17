@@ -3,7 +3,6 @@ phases:
   pre_build:
     commands:
       - echo Instalando dependencias
-      - npm install
   build:
     commands:
       - echo Build iniciado em `date`
@@ -12,6 +11,6 @@ phases:
       - echo Build finalizado em `date`
 artifacts:
   files:
-    - build/**/*
+    - app/**/*
     - appspec.yml
     - scripts/**/*  #levar tudo que tem dentro dela
